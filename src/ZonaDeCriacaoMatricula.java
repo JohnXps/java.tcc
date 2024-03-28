@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ZonaDeCriacaoMatricula extends Aluno {
 
-    
+
 
     public static void  Criar_Matricula() throws IOException {
         Scanner leitor = new Scanner(System.in);
