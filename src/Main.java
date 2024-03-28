@@ -6,7 +6,7 @@ public class Main {
        // ArrayList<Aluno> alunos = new ArrayList<>();
 
 
-        ZonaDeCriacaoMatricula John = new ZonaDeCriacaoMatricula("João Andrade", "89008989009","443433434","CComp");
+        ZonaDeCriacaoMatricula John = new ZonaDeCriacaoMatricula();
         John.Criar_Matricula();
 
 
