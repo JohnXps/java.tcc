@@ -4,9 +4,7 @@ import java.io.IOException;
 public class RelatorioAluno extends Aluno{
 
 
-    public RelatorioAluno(String nomeDoUsuario, String cpf, String rg, String Curso) {
-        super(nomeDoUsuario, cpf, rg, Curso);
-    }
+
 
     public static void escreverNoArquivoCsv(int NumeroDaMatricula) {
 

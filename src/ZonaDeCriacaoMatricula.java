@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 public class ZonaDeCriacaoMatricula extends Aluno {
 
-    public ZonaDeCriacaoMatricula(String nomeDoUsuario, String cpf, String rg, String Curso) {
-        super(nomeDoUsuario,cpf,rg,Curso);
-
-    }
 
     public static void  Criar_Matricula() throws IOException {
         Scanner leitor = new Scanner(System.in);
