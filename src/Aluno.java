@@ -11,9 +11,7 @@ public class Aluno extends Pessoa{
     private int NumeroDaMatricula;
     private String Curso;
     private int LevelDisciplinas;
-
-
-    private ArrayList<Aluno> diciplinas = new ArrayList<>();
+    private int NumeroDisciplinas;
     static ArrayList<Aluno> alunos = new ArrayList<>();
 
 
@@ -49,13 +47,23 @@ public class Aluno extends Pessoa{
         LevelDisciplinas = levelDisciplinas;
     }
 
+    public int getNumeroDisciplinas() {
+        return NumeroDisciplinas;
+    }
+
+    public void setNumeroDisciplinas(int numeroDisciplinas) {
+        NumeroDisciplinas = numeroDisciplinas;
+    }
+
+    public Aluno(){
+        this.NumeroDaMatricula = getRunNumeroDaMatricula() + 1;
+        this.RunNumeroDaMatricula = getRunNumeroDaMatricula() + 1;
+        this.LevelDisciplinas = 1;
+    }
 public void setTudo(String nomeDoUsuario, String cpf, String rg, String Curso){
     this.setNomeDoUsuario(nomeDoUsuario);
     this.setCpf(cpf);
     this.setRg(rg);
-    this.LevelDisciplinas = 1;
-    this.NumeroDaMatricula = getRunNumeroDaMatricula() + 1;
-    RunNumeroDaMatricula = getRunNumeroDaMatricula() + 1;
     this.Curso = Curso;
 
 }

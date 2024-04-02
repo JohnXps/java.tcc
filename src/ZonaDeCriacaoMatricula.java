@@ -81,18 +81,25 @@ public class ZonaDeCriacaoMatricula extends Aluno {
         aluno.setTudo(nome, cpf, rg, curso);
 
 
-        //System.out.print("Agora vamos escolher as disciplinas de " + curso + " que estão disponíveis");
+        System.out.print("Agora vamos escolher as disciplinas de " + curso + " que estão disponíveis");
 
         if (aluno.getLevelDisciplinas() == 1){
-            System.out.println("\nAs disciplinas disponíveis para iniciar o curso de " + aluno.getCurso() +", são: " +
+            System.out.println(
+                    "\nAs disciplinas disponíveis para iniciar o curso de " + aluno.getCurso() +", são: " +
                     "\n1 = Fundamentos da Computação" +
                     "\n1 = Estruturas de Dados e Algoritmos" +
                     "\n1 = Teoria da Computação" +
                     "\n1 = Lógica Digital e Circuitos" +
                     "\n1 = Arquitetura de Sistemas Computacionais\n" +
-                    "Obs.: Você só vai desbloquear as outras diciplinas, se tiver uma medía 7 anual e 6.5 em cada di"
+                    "Obs.: Você só vai desbloquear as outras diciplinas, se tiver uma medía 7 anual e 6.5 em cada disciplina."
             );
+
+            
+
+            //diciplinas.add("dd");
+
         }
+
 
 
 
@@ -109,11 +116,6 @@ public class ZonaDeCriacaoMatricula extends Aluno {
 
         alunos.add(aluno);
         System.out.println(alunos.get(0));
-
-        //  do {} while (selector == 'S');
-
-
-
 
 
     }
