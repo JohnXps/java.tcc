@@ -87,14 +87,15 @@ public class ZonaDeCriacaoMatricula extends Aluno {
             System.out.println(
                     "\nAs disciplinas disponíveis para iniciar o curso de " + aluno.getCurso() +", são: " +
                     "\n1 = Fundamentos da Computação" +
-                    "\n1 = Estruturas de Dados e Algoritmos" +
-                    "\n1 = Teoria da Computação" +
-                    "\n1 = Lógica Digital e Circuitos" +
-                    "\n1 = Arquitetura de Sistemas Computacionais\n" +
+                    "\n2 = Estruturas de Dados e Algoritmos" +
+                    "\n3 = Teoria da Computação" +
+                    "\n4 = Lógica Digital e Circuitos" +
+                    "\n5 = Arquitetura de Sistemas Computacionais\n" +
                     "Obs.: Você só vai desbloquear as outras diciplinas, se tiver uma medía 7 anual e 6.5 em cada disciplina."
             );
 
-            
+
+
 
             //diciplinas.add("dd");
 
